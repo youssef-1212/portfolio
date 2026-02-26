@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
 
-      status.textContent = "Thanks for your message! This is a demo form and does not send data.";
+      status.textContent = "Thanks for your message! ";
       status.classList.remove("text-danger");
       status.classList.add("text-secondary");
 
@@ -28,4 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
 
